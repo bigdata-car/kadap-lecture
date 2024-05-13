@@ -26,6 +26,8 @@ def stream_data():
 
 st.write_stream(stream_data)
 ```
+![ezgif com-crop](https://github.com/bigdata-car/kadap-lecture/assets/153149491/c2e4d9f1-cb89-438e-8661-7678b4aebed2)
+
 
 # 2. Text elements
 
