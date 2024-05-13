@@ -26,6 +26,7 @@ def stream_data():
 
 st.write_stream(stream_data)
 ```
+https://katech2021-my.sharepoint.com/:v:/g/personal/mjbang_bigdata-car_kr/EZOaKEpOlShOhlqYLTdouUABSsC9IhBqyDlxPQkgErQdpA?e=2wxfof
 
 # 2. Text elements
 
