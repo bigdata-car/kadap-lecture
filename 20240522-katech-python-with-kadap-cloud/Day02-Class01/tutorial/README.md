@@ -69,7 +69,6 @@
 * FastAPI는 API를 만들기 위한 **파이썬 기반 웹 프레임워크**이다.
 * **비동기 웹 서버**인 uvicorn을 사용하여 API를 만들기 위한 파이썬 프레임워크 중 속도가 가장 빠르다.
 * Swagger, ReDoc과 같은 API 문서 자동화 기능을 지원한다.
-<br/>
 
 ### FastAPI의 CRUD(Create, Read, Update, Delete)
 1. Create(POST 방식)
