@@ -88,3 +88,12 @@
 
 ![image](https://github.com/Jongkeun21/kadap-lecture/assets/49437473/0b8862d1-02ab-465f-8d73-d14156bea4a6)
 
+---
+
+# API로 Hello World 호출하기
+Visual studio code, Jupyter notebook
+
+1. [KADaP IDE의 Visual studio code로 서버 구동하기](https://example.com)
+2. [Jupyter notebook에서 requests로 API 호출하기](https://example.com)
+3. [사용자 PC에서 URL로 API 호출하기](https://example.com)
+
