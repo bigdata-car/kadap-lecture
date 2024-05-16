@@ -93,7 +93,7 @@
 # API로 Hello World 호출하기
 Visual studio code, Jupyter notebook
 
-1. [KADaP IDE의 Visual studio code로 서버 구동하기](https://example.com)
-2. [Jupyter notebook에서 requests로 API 호출하기](https://example.com)
-3. [사용자 PC에서 URL로 API 호출하기](https://example.com)
+1. [KADaP IDE의 Visual studio code로 서버 구동하기](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/tutorial/tutorial.py)
+2. [Jupyter notebook에서 requests로 API 호출하기](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/tutorial/tutorial.ipynb)
+3. 사용자 PC에서 URL로 API 호출하기
 
