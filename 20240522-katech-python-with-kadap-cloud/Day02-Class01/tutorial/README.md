@@ -53,7 +53,20 @@
 #### 데이터 전달
 * JSON, XML, HTML 등의 형태로 요청한 정보의 데이터 전달
 
-![image](https://github.com/Jongkeun21/kadap-lecture/assets/49437473/b3fcd47e-06db-4c5a-8656-ae83e0e1eba8)
+```http
+HTTP/1.1 200 OK
+Content-Type: application/vnd.api+json
+Link: <https://example.org/docs/todos>; rel="profile"
+
+{
+   "data": [{
+      "type": "todo",
+      "id": "1",
+      "attributes": { "title": "집에 가기" },
+      "links": { "self": "http://example.com/todos/1" }
+   }]
+}
+```
 
 ---
 
@@ -73,26 +86,85 @@
 ### FastAPI의 CRUD(Create, Read, Update, Delete)
 1. Create(POST 방식)
 
-![image](https://github.com/Jongkeun21/kadap-lecture/assets/49437473/1440efae-6041-49fc-b6ff-321ec7a78b19)
+```python
+class Item(BaseModel) :
+   user: str
+   msg: str
+
+@app.post('/api/v1/tutorial/post')
+async def mypost(item: Item) :
+   return JSONResponse({
+      'success': 'True',
+      'data': {
+         'user': item.user,
+         'msg': item.msg
+      }
+   })
+```
+<br/>
 
 2. Read(GET 방식)
 
-![image](https://github.com/Jongkeun21/kadap-lecture/assets/49437473/45d1ed29-05c2-496b-a6c9-4c4641069caf)
+```python
+@app.get('/api/v1/tutorial/get')
+async def myget(user: str, msg: str) :
+   return JSONResponse({
+      'success': 'True',
+      'data': {
+         'user': user,
+         'msg': msg
+      }
+   })
+```
+<br/>
 
 3. Update(PUT, PATCH 방식)
 
-![image](https://github.com/Jongkeun21/kadap-lecture/assets/49437473/c4963e6e-1849-4438-ae93-ed2cb710a6fc)
+```python
+class Item(BaseModel) :
+   user: str
+   msg: str
+
+@app.put('/api/v1/tutorial/put')
+async def myput(item: Item) :
+   return JSONResponse({
+      'success': 'True',
+      'data': {
+         'user': item.user,
+         'msg': item.msg
+      }
+   })
+```
+<br/>
 
 4. Delete(DELETE 방식)
 
-![image](https://github.com/Jongkeun21/kadap-lecture/assets/49437473/0b8862d1-02ab-465f-8d73-d14156bea4a6)
+```python
+@app.delete('/api/v1/tutorial/delete')
+async def mydelete() :
+   return Response(status_code=204)
+```
+<br/>
 
 ---
 
-# API로 Hello World 호출하기
+# API로 Hello World 호출하기(예제 코드)
 Visual studio code, Jupyter notebook
 
 1. [KADaP IDE의 Visual studio code로 서버 구동하기](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/tutorial/tutorial.py)
 2. [Jupyter notebook에서 requests로 API 호출하기](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/tutorial/tutorial.ipynb)
 3. 사용자 PC에서 URL로 API 호출하기
 
+---
+
+# 토큰 기능으로 API 제어하기
+## 토큰의 필요성
+<br/>
+
+![image](https://github.com/bigdata-car/kadap-lecture/assets/105857557/03d873eb-898e-49f9-88a0-47c405947356)
+
+* 토큰은 사용자의 인증과 권환을 확인하기 위한 ID/비밀번호와 같은 역할을 수행한다.
+* 허용되지 않은 사용자가 정보 요청하는 것을 방지하기 위해 사용한다.
+* 허용된 사용자의 사용 횟수 등을 제한하기 위해 사용한다.<br/> (e.g. Basic 요금제 사용자는 월 100건만 호출 가능)
+
+[토큰 기능으로 API 제어하기](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/tutorial/authorization.py)
