@@ -148,16 +148,7 @@ async def mydelete() :
 
 ---
 
-# API로 Hello World 호출하기(예제 코드)
-Visual studio code, Jupyter notebook
-
-1. [KADaP IDE의 Visual studio code로 서버 구동하기](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/tutorial/tutorial.py)
-2. [Jupyter notebook에서 requests로 API 호출하기](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/tutorial/tutorial.ipynb)
-3. 사용자 PC에서 URL로 API 호출하기
-
----
-
-# 토큰 기능으로 API 제어하기
+# 2. 토큰 기능으로 API 제어하기
 ## 토큰의 필요성
 <br/>
 
@@ -167,4 +158,13 @@ Visual studio code, Jupyter notebook
 * 허용되지 않은 사용자가 정보 요청하는 것을 방지하기 위해 사용한다.
 * 허용된 사용자의 사용 횟수 등을 제한하기 위해 사용한다.<br/> (e.g. Basic 요금제 사용자는 월 100건만 호출 가능)
 
-[토큰 기능으로 API 제어하기](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/tutorial/authorization.py)
+---
+
+# API로 Hello World 호출하기 및 토큰 기능으로 API 제어하기(예제 코드)
+Visual studio code, Jupyter notebook
+
+1. [KADaP IDE의 Visual studio code로 서버 구동하기](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/tutorial/tutorial.py)
+2. [Jupyter notebook에서 requests로 API 호출하기](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/tutorial/tutorial.ipynb)
+3. [토큰 기능으로 API 제어하기](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/tutorial/authorization.py)
+
+---
