@@ -10,7 +10,7 @@
 
 ![image](https://github.com/bigdata-car/kadap-lecture/assets/105857557/1248a346-bd28-4c4f-98c5-afb3b8296f6e)
 
-* [마켓](market.bigdata-car.kr)에서 사용하고자 하는 API(APP) 선택하고 요금제를 선택하여 구매 신청한다. <br/>(판매자의 승인 후 이용 가능)
+* [마켓](market.bigdata-car.kr)에서 사용하고자 하는 API(APP) 선택하고 요금제를 선택하여 구매 신청한다. (판매자의 승인 후 이용 가능)
 
 ![image](https://github.com/bigdata-car/kadap-lecture/assets/105857557/b854646c-fa9c-4b1c-8acb-bacb5c9a56b3)
 
