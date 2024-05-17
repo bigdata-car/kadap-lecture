@@ -2,7 +2,7 @@
 [KADaP 마켓 방문하기](market.bigdata-car.kr)
 ## 마켓 API 활용 - 자동차 정보조회 API
 
-![image](https://github.com/bigdata-car/kadap-lecture/assets/105857557/a5a15be8-0899-403a-a9e2-c429c0e95722)
+![image](https://github.com/bigdata-car/kadap-lecture/assets/105857557/90208cc9-4881-4102-ba71-fb99d231c02e)
 
 * 자동차 정보조회 API : [자동차데이터포털](bigdata-car.kr)에서 제공하는 [마이카 서비스](https://www.bigdata-car.kr/portal/ui/analysis/utilize/my-car/index.html) API
 * 소유자명과 차량번호 검색을 통해 차종, 차대번호 등 **차량 기본정보 조회**가 가능하다.
