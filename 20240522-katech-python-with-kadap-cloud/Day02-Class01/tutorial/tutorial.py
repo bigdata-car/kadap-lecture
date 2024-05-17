@@ -8,6 +8,7 @@ from pydantic import BaseModel
 
 # cloud ide는 리버스 프록시를 사용하기 때문에 prefix 별도 지정
 app = FastAPI(openapi_prefix="/proxy/8000")
+# 일반적인 경우 아래와 같이 사용
 # app = FastAPI()
 
 # 기본적인 GET 방식 API
