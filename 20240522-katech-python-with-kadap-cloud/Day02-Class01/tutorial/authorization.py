@@ -9,7 +9,9 @@ from fastapi.security.http import HTTPAuthorizationCredentials, HTTPBearer
 from fastapi import Depends, HTTPException
 
 # cloud ide는 리버스 프록시를 사용하기 때문에 prefix 별도 지정
-app = FastAPI(openapi_prefix="/proxy/8000") 
+app = FastAPI(openapi_prefix="/proxy/8000")
+# 일반적인 경우 아래와 같이 사용
+# app = FastAPI()
 
 # 인증을 위한 토큰 리스트
 tokenList = [
