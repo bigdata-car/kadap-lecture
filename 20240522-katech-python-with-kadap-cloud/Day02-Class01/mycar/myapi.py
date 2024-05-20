@@ -6,7 +6,6 @@ from pydantic import BaseModel
 from marketapi import Mycar
 
 app = FastAPI(openapi_prefix="/proxy/8000")
-# mycar = Mycar(apikey="ae344476-9b50-436b-83a1-22c9c9c089be")
 
 @app.get('/api/v1/mycar/carinfo_get')
 async def carinfo_get(apikey: str, ownername: str, reginumber: str) :
