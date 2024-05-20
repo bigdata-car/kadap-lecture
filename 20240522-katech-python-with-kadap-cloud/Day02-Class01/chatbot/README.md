@@ -31,7 +31,7 @@
 # 예제코드
 Visual studio code, Jupyter notebook
 
-1. [마켓 API 호출(Visual studio code)](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/mycar/marketapi.py)
-2. [마켓 API 호출(Jupyter notebook)](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/mycar/marketapi.ipynb)
+1. [마켓 API 호출(Visual studio code)](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/chatbot/marketapi.py)
+2. [마켓 API 호출(Jupyter notebook)](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/chatbot/marketapi.ipynb)
 
 ---
