@@ -131,3 +131,5 @@ async def POST(body: Body) :
 Visual studio code
 
 1. [GET, POST 방식을 사용한 연비예측모델 API](https://github.com/bigdata-car/kadap-lecture/blob/main/20240522-katech-python-with-kadap-cloud/Day02-Class01/automotive_regression/automotive_regression.py)
+
+---
