@@ -136,7 +136,41 @@ st.pyplot(fig)
 # 5. Input widgets
 
 ## 5.1 Button
+```python
+import streamlit as st
+
+st.button("Reset", type="primary")
+if st.button("Say hello"):
+    st.write("Why hello there")
+else:
+    st.write("Goodbye")
+```
 ## 5.2 Download button
-## 5.3 Form button
+```python
+import streamlit as st
+
+with open("flower.png", "rb") as file:
+    btn = st.download_button(
+            label="Download image",
+            data=file,
+            file_name="flower.png",
+            mime="image/png"
+          )
+```
 ## 5.4 Slider
+```python
+import streamlit as st
+
+age = st.slider("How old are you?", 0, 130, 25)
+st.write("I'm ", age, "years old")
+```
 ## 5.5 File uploader
+```python
+import streamlit as st
+
+uploaded_files = st.file_uploader("Choose a CSV file", accept_multiple_files=True)
+for uploaded_file in uploaded_files:
+    bytes_data = uploaded_file.read()
+    st.write("filename:", uploaded_file.name)
+    st.write(bytes_data)
+```
