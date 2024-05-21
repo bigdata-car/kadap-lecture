@@ -81,17 +81,58 @@ code = '''def hello():
 st.code(code, language='python')
 ```
 # 3. Data elements
-
 ## 3.1 Dataframes
+```python
+import streamlit as st
+import pandas as pd
+import numpy as np
+
+df = pd.DataFrame(np.random.randn(50, 20), columns=("col %d" % i for i in range(20)))
+
+st.dataframe(df)  # Same as st.write(df)
+```
 ## 3.2 Metrics
-## 3.3 Static tables
+```python
+import streamlit as st
 
+col1, col2, col3 = st.columns(3)
+col1.metric("Temperature", "70 °F", "1.2 °F")
+col2.metric("Wind", "9 mph", "-8%")
+col3.metric("Humidity", "86%", "4%")
+```
 # 4. Chart elements
-
 ## 4.1 Simple area charts
-## 4.2 Simple line charts
-## 4.3 Matplotlib
+```python
+import streamlit as st
+import pandas as pd
+import numpy as np
 
+chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
+
+st.area_chart(chart_data)
+```
+## 4.2 Simple line charts
+```python
+import streamlit as st
+import pandas as pd
+import numpy as np
+
+chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
+
+st.line_chart(chart_data)
+```
+## 4.3 Matplotlib
+```python
+import streamlit as st
+import matplotlib.pyplot as plt
+import numpy as np
+
+arr = np.random.normal(1, 1, size=100)
+fig, ax = plt.subplots()
+ax.hist(arr, bins=20)
+
+st.pyplot(fig)
+```
 # 5. Input widgets
 
 ## 5.1 Button
