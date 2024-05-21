@@ -52,28 +52,28 @@ st.markdown(multi)
 https://doc-markdown.streamlit.app/?utm_medium=oembed&
 
 ## 2.2 Title
-```
+```python
 import streamlit as st
 
 st.title('This is a title')
 st.title('_Streamlit_ is :blue[cool] :sunglasses:')
 ```
 ## 2.3 Header
-```
+```python
 import streamlit as st
 
 st.header('This is a header with a divider', divider='rainbow')
 st.header('_Streamlit_ is :blue[cool] :sunglasses:')
 ```
 ## 2.4 Caption
-```
+```python
 import streamlit as st
 
 st.caption('This is a string that explains something above.')
 st.caption('A caption with _italics_ :blue[colors] and emojis :sunglasses:')
 ```
 ## 2.5 Code block
-```
+```python
 import streamlit as st
 
 code = '''def hello():
