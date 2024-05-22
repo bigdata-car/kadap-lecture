@@ -1,5 +1,10 @@
+![image](https://github.com/bigdata-car/kadap-lecture/assets/105857557/ce018a42-4fee-4779-bdf7-d9474a47b971)
+
+## [KADaP 마켓 방문하기](market.bigdata-car.kr)
+
+</br>
+
 # KADaP 마켓 활용 #1
-[KADaP 마켓 방문하기](market.bigdata-car.kr)
 ## 마켓 API 활용 - 자동차 정보조회 API
 
 ![image](https://github.com/bigdata-car/kadap-lecture/assets/105857557/90208cc9-4881-4102-ba71-fb99d231c02e)
