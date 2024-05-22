@@ -1,5 +1,8 @@
+![image](https://github.com/bigdata-car/kadap-lecture/assets/105857557/ce018a42-4fee-4779-bdf7-d9474a47b971)
+
+## [KADaP 마켓 방문하기](market.bigdata-car.kr)
+
 # KADaP 마켓 활용 #2
-[KADaP 마켓 방문하기](market.bigdata-car.kr)
 ## 마켓 API 활용 - Chatbot API
 
 ![image](https://github.com/bigdata-car/kadap-lecture/assets/105857557/1bfb2ccc-9a78-4587-a207-4dc8b0c1db9d)
