@@ -73,7 +73,7 @@ Link: <https://example.org/docs/todos>; rel="profile"
 ## API 프레임워크 종류
 <br/>
 
-![image](https://github.com/Jongkeun21/kadap-lecture/assets/49437473/7352c4f6-5737-4990-b91f-44ebbeeaaf35)
+![image](https://github.com/bigdata-car/kadap-lecture/assets/105857557/a1b66104-c4f1-40a9-9cf4-40c0d03724d0)
 
 ---
 
